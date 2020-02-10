@@ -170,6 +170,11 @@ section {
   color: white;
 }
 
+.contact-description {
+  width: 50%;
+  margin: auto;
+}
+
 .mail-icon {
   width: 200px;
   margin: 30px 0;
