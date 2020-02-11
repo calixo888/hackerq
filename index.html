@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>HackerQ</title>
   </head>
   <body>
@@ -34,7 +35,7 @@
       <div class="container">
         <h1 class="text-center f-50">What is HackerQ?</h1>
         <div class="points-grid">
-          <div class="point">
+          <div class="point" data-aos="fade-right">
             <h2 class="f-30">Attendee Organizer</h2>
             <div class="content-grid">
               <img class="content-img" src="img/showcase/reason1.jpeg" alt="Content Picture">
@@ -43,7 +44,7 @@
               </p>
             </div>
           </div>
-          <div class="point">
+          <div class="point" data-aos="fade-right">
             <h2 class="f-30">News & Update Hub</h2>
             <div class="content-grid">
               <img class="content-img" src="img/showcase/reason2.jpeg" alt="Content Picture">
@@ -52,7 +53,7 @@
               </p>
             </div>
           </div>
-          <div class="point">
+          <div class="point" data-aos="fade-right">
             <h2 class="f-30">Convenience Tool</h2>
             <div class="content-grid">
               <img class="content-img" src="img/showcase/reason3.jpeg" alt="Content Picture">
@@ -70,7 +71,7 @@
         <h1 class="f-50 text-center">HackerQ Demo</h1>
         <div class="my-5 text-center">
           <!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/oHg5SJYRHA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-          <div class="youtube-video" style="width: 800px; height: 450px; display: inline-block; background-color: white;">
+          <div data-aos="zoom-in" class="youtube-video" style="width: 800px; height: 450px; display: inline-block; background-color: white;">
           </div>
         </div>
       </div>
@@ -80,7 +81,7 @@
       <div class="container">
         <h1 class="text-center f-50">HackerQ Team</h1>
         <div class="member-grid">
-          <div class="member">
+          <div class="member" data-aos="fade-up">
             <div class="member-img-container">
               <img src="img/members/pranav.jpg" alt="Member Image" class="member-img">
             </div>
@@ -90,7 +91,7 @@
               Pranav Krishna is a 15 year old student programmer based in the bay area. His hobby for coding has helped him create many successful projects that he has published. Being fluent in over 6 programming languages, coding is his most favored hobby.
             </p>
           </div>
-          <div class="member">
+          <div class="member" data-aos="fade-up">
             <div class="member-img-container">
               <img style="transform: scale(1.3);" src="img/members/shabd.jpg" alt="Member Image" class="member-img">
             </div>
@@ -100,7 +101,7 @@
               Shabd Veyyakula is a diligent 15 year old programmer who has experience in areas of app development.  He takes pride in his work making sure satisfaction from his users are his utmost priority.  He started his pursuit of software development in eight grade and currently learning more since.
             </p>
           </div>
-          <div class="member">
+          <div class="member" data-aos="fade-up">
             <div class="member-img-container">
               <img src="img/members/calix.jpeg" alt="Member Image" class="member-img">
             </div>
@@ -110,7 +111,7 @@
               Calix Huang is a 15 year old self-taught programmer and entrepreneur. He is homeschooled as a part of an independent study online program called Connections Academy, and I have used online resources to teach myself every single thing I know about software engineering.
             </p>
           </div>
-          <div class="member">
+          <div class="member" data-aos="fade-up">
             <div class="member-img-container">
               <img style="transform: scale(1.8) translate(-20px, 20px);" src="img/members/kushagra.jpg" alt="Member Image" class="member-img">
             </div>
@@ -126,7 +127,7 @@
 
     <section class="download-banner">
       <div class="container">
-        <div class="banner-grid">
+        <div class="banner-grid" data-aos="fade-right">
           <h1 class="f-50">Download HackerQ!</h1>
           <div class="download-btns">
             <a href="#">
@@ -147,7 +148,7 @@
           Always feel free to contact us with any questions or sponsorship inquiries! We are always open to emails and will respond to you within 2 business days!
         </p>
         <a href="mailto:xeondevelopers.us@gmail.com">
-          <img src="img/icons/email.svg" alt="Email Icon" class="mail-icon">
+          <img data-aos="zoom-in" src="img/icons/email.svg" alt="Email Icon" class="mail-icon">
         </a>
         <p><a href="mailto:xeondevelopers.us@gmail.com">xeondevelopers.us@gmail.com</a></p>
       </div>
@@ -163,4 +164,9 @@
       crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
       crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
